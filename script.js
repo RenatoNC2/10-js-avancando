@@ -10,7 +10,7 @@ function adicionar() {
     
         
     if (n.length == 0 || n < 1 || n > 100 || pos !== -1) {
-        window.alert('Insira o valor a lista ou um valor n cadastrado!')
+        window.alert('Insira o valor a lista/ valor invalido!')
         num.value = ''
         num.focus()
     } else {
